@@ -1,3 +1,9 @@
+%file logo.mp
+%author MengY
+%version 1.0
+%date 2015.10.15
+%brief ä½¿ç”¨MetaPostç”ŸæˆCUG LogoçŸ¢é‡å›¾
+
 outputformat := "PostScript";
 %outputformat := "svg";
 %outputformat := "png";
@@ -6,7 +12,7 @@ prologues:=3;
 %tracingall;
 
 numeric style;
-% 0 ²ÊÉ«   1 ºÚ°×
+% 0 å½©è‰²  1 é»‘ç™½é€æ˜
 style = 0;
 
 color bclo, bcoln;
@@ -35,7 +41,7 @@ dot1 = (CircleRadiusS, 0); dot2 = (CircleRadiusM, 0); dot3 = (168.7, 0); dot4 = 
 path hammer, clm, clb;
 hammer = ((104.5, 81.1)...(40.5, 83.5)...(15, 78)..(10.5, 73.5){down}--(10.5, -132)--(-10.5, -132)--(-10.5, 73.5){up}..(-15, 78)..(-50, 83.5){left}..(-85.7, 83.5)--(-85.7, 103.9)...(0, 112.9){right}...(104.5, 81.1));
 pickup pencircle scaled LineWidth;
-%Èı¸öÔ²
+%ä¸‰ä¸ªåœ†
 clb = fullcircle scaled CircleDiameterB shifted (300, 300);
 clm = fullcircle scaled CircleDiameterM shifted (300, 300);
 if style = 0:
@@ -50,7 +56,7 @@ draw (dot1--dot2) shifted (300, 300) withcolor bclo;
 draw (dot1--dot2) xscaled -1 shifted (300, 300) withcolor bclo;
 draw (dot10--dot11) shifted (300, 300) withcolor bclo;
 draw (dot10--dot11) yscaled -1 shifted (300, 300) withcolor bclo;
-%ÄÚ²¿ÁâĞÎ
+%å†…éƒ¨è±å½¢
 fill (0, 20.4)--(0, 0)--(-145.3, 0)--cycle shifted (300, 300) withcolor bclo;
 fill (0, -20.4)--(0, 0)--(145.3, 0)--cycle shifted (300, 300) withcolor bclo;
 if style = 0:
@@ -60,7 +66,7 @@ fi;
 draw ((0, 20.4)--(145.3, 0)--(0, -20.4)--(-145.3, 0)--(0, 20.4)) shifted (300, 300) withcolor bclo;
 pickup pencircle scaled 4;
 draw ((145.3, 0)--(-145.3, 0)) shifted (300, 300) withcolor bclo;
-%»­´¸×Ó
+%ç”»é”¤å­
 fill buildcycle(hammer) shifted (300, 300) withcolor bclo;
 draw hammer shifted (300, 300) withcolor bclo;
 linejoin:=mitered;
