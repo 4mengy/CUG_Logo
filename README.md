@@ -6,3 +6,4 @@
 ```
 mpost logo.mp
 ```
+Have a good time!
