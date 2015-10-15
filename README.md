@@ -6,4 +6,10 @@
 ```
 mpost logo.mp
 ```
-Have a good time!
+
+###关于字体
+- 英文字体使用的NimbusSanL-Bold。需要uhvb8a.pfb和uhvb8a.tfm这两个文件。如果缺少tfm文件，请使用[FontForge](http://fontforge.github.io/)转换。
+- 中文字体使用黑体。需要[ctexlivefonts](http://thinfilm.ustc.edu.cn/~liangzi/software/CTeXlive/)中Type1字体，感谢网友[Xiaohua Xu](https://code.google.com/p/pixtex/downloads/list)提供的各种独立字体包。
+- 字体安装请参考相关的帮助文档。
+
+####Have a good time!
