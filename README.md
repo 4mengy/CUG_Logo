@@ -4,6 +4,8 @@ CUG Logo
 
 Logo有两种样式：官方的蓝底样式，背景不透明；黑白样式，背景透明。
 
+已经生产好的图片在/Pictures文件夹里。
+
 怎样生成
 --------
 需要安装[TexLive](https://www.tug.org/texlive/)或者[MikTex](http://miktex.org/)并安装[MetaPost](https://www.tug.org/metapost.html)相关包。在命令行或者shell下执行
@@ -22,5 +24,9 @@ mpost logo.mp
 - CUG Logo版权归中国地质大学所有。
 - NimbusSanL-Bold字体版权归URW Software Inc.所有。
 - 黑体字体版权归Beijing ZhongYi Electronics Co.所有。
+
+License
+-------
+GPL v2
 
 ####Have a good time!
