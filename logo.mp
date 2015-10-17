@@ -7,7 +7,7 @@
 outputformat := "PostScript";
 %outputformat := "svg";
 %outputformat := "png";
-outputtemplate := "%j-%c.ps";
+outputtemplate := "%j-%c.eps";
 prologues:=3;
 %tracingall;
 
