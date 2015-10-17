@@ -21,7 +21,7 @@ mpost logo.mp
 
 版权
 --------
-- CUG Logo版权归中国地质大学所有。
+- CUG 校徽版权归中国地质大学所有。
 - NimbusSanL-Bold字体版权归URW Software Inc.所有。
 - 黑体字体版权归Beijing ZhongYi Electronics Co.所有。
 
