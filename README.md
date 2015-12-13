@@ -1,6 +1,6 @@
 CUG Logo
 ---
-使用[MetaPost](https://www.tug.org/metapost.html)制作的矢量图。可以生成EPS、SVG和PNG格式的图片。
+使用[MetaPost](https://www.tug.org/metapost.html)制作的中国地质大学校徽矢量图。可以生成EPS、SVG和PNG格式的图片。
 
 Logo有两种样式：官方的蓝底样式，背景不透明；黑白样式，背景透明。
 
